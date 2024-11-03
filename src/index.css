@@ -71,6 +71,14 @@ button:focus-visible {
   display: flex;
 }
 
+.column {
+  flex-direction: column;
+}
+
+.centered {
+  align-items: center;
+}
+
 .gap {
   gap: 1rem;
 }
@@ -171,4 +179,10 @@ button:first-child {
 
 .transperant {
   color: #8f8f8f71;
+}
+
+.colored {
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(94deg, #58cdff, #229bff, #df62db, #fb6159);
+  background-clip: text;
 }
